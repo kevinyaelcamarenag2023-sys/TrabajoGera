@@ -1,5 +1,5 @@
 const slides = document.querySelector('.slides');
-const slideCount = document.querySelectorAll('.slide').length;
+const toño = document.querySelectorAll('.slide').length;
 let index = 0;
 
 document.querySelector('.next').addEventListener('click', () => {
@@ -17,5 +17,6 @@ function updateCarousel() {
 }
 
 function comprar(modelo) {
-  alert(`Has comprado el ${modelo}. ¡Gracias por tu compra!`);
+  alert(`Has comprado el ${modelo}. ¡Gracias por tu compra te deseo!`);
 }
+
